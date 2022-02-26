@@ -1,18 +1,20 @@
-import React from 'react'
+import React from "react";
+import './IncomeExpense.css'
 
 const IncomeExpense = () => {
   return (
-    <div className='expenseContainer'>
-        <div>
-        <h4>Income</h4>
+    <div className="expenseContainer">
+      <div className="income">
+        <h2>Income</h2>
         <p>₦800</p>
-        </div>
-        <div>
-            <h4>Expense</h4>
-            <p>₦800</p>
-        </div>
+      </div>
+      <div className="vtLine"></div>
+      <div className="expense">
+        <h2>Expense</h2>
+        <p>₦800</p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default IncomeExpense
+export default IncomeExpense;

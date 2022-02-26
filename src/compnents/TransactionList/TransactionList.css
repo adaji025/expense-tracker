@@ -1,0 +1,11 @@
+
+
+.history {
+    box-shadow: 0px 22px 46px rgba(0, 0, 0, .06);
+    display: inline-flex;
+    align-items: center;
+    padding: .5rem;
+    min-width: 100px;
+    background: #fff;
+    /* min-height: 60px; */
+}
