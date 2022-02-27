@@ -1,0 +1,6 @@
+form label {
+    display: block;
+}
+form input {
+    width: 400px;
+}
